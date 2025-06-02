@@ -1,0 +1,37 @@
+## This file contains `chart-tester.sh` tool options
+## Uncomment and set the desired values
+
+## [[ Version constraints ]]
+VERSION=0.9.0
+
+## [[ Color codes ]]
+## Ref: (https://misc.flogisoft.com/bash/tip_colors_and_formatting)
+# COLOR_RED=\e[41m
+# COLOR_GREEN=\e[42m
+# COLOR_BLUE=\e[34m
+# COLOR_YELLOW=\e[33m
+
+## [[ Comment patterns ]]
+# CHART_PATTERN=##-> Chart:
+# TYPE_PATTERN=##-> Type:
+# PATH_PATTERN=##-> Path:
+# SRC_PATTERN=##-> Source:
+# V_PATTERN=##-> Version:
+# NC_PATTERN=##-> Namespace:
+# RL_PATTERN=##-> Release:
+# BASE_VALUES_PATTERN=##-> BaseValues
+
+## [[ YAML options ]]
+# YAML_ROOT_KEY=chartInstallOptions
+# YAML_CHART_KEY=chart
+# YAML_TYPE_KEY=type
+# YAML_PATH_KEY=path
+# YAML_SRC_KEY=source
+# YAML_V_KEY=version
+# YAML_NS_KEY=namespace
+# YAML_RL_KEY=releaseName
+# YAML_BASE_VALUES_KEY=baseValues
+
+## [[ Helm options ]]
+# CHARTS_DIR=.charts
+# DEBUG_SUFFIX=-debug.yaml
