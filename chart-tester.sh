@@ -196,7 +196,7 @@ download_helm() {
   local version="$3"
 
   log "Downloading ${BLUE}$chart${NC} version ${BLUE}$version${NC}..."
-  rm -rf "$CHARTS_DIR/$chart*"
+  rm -rf $CHARTS_DIR/$chart*
   if [[ $source == oci:* ]]; then
     helm pull --untar -d $CHARTS_DIR $source/$chart --version $version
   else
