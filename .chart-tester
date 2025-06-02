@@ -19,7 +19,7 @@ VERSION=0.9.0
 # V_PATTERN=##-> Version:
 # NC_PATTERN=##-> Namespace:
 # RL_PATTERN=##-> Release:
-# BASE_VALUES_PATTERN=##-> BaseValues
+# BASE_VALUES_PATTERN=##-> BaseValues:
 
 ## [[ YAML options ]]
 # YAML_ROOT_KEY=chartInstallOptions
